@@ -1,2 +1,2 @@
 # AlgoRhythm
-## Rhythm game develop by unity
+## Rhythm game developed by unity
