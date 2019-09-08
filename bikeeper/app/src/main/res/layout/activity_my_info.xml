@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InquiryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/MyBikeColor">
+        <ImageButton
+            android:id="@+id/backbutton"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_backicon"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[내 정보]"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            />
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:layout_marginRight="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/squareborder_bottom">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:background="@drawable/squareborder">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/ic_iconfinder_photo_370076"/>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="엽춘권"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/MyBikeColor"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="yck1203@cau.ac.kr"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_right_blue"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:id="@+id/profile"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_noun_personal_information_1921466"/>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/squareborder_bottom_gray">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="개인정보"
+                android:textSize="20dp"
+                android:textColor="#FF000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#FFAAAAAA"
+                android:text="수정,탈퇴 수신 동의"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/personal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_right_black"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_noun_bicycle_2057676"/>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/squareborder_bottom_gray">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="자전거 정보"
+                android:textSize="20dp"
+                android:textColor="#FF000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#FFAAAAAA"
+                android:text="등록,추가"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/bikeinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_right_black"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_noun_lock_771672"/>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/squareborder_bottom_gray">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="잠금 장치 및 GPS"
+                android:textSize="20dp"
+                android:textColor="#FF000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#FFAAAAAA"
+                android:text="신청, A/S 안내"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/ready1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_right_black"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_noun_list_1338784"/>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/squareborder_bottom_gray">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이용 내역"
+                android:textSize="20dp"
+                android:textColor="#FF000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#FFAAAAAA"
+                android:text="보관, 수령, 서비스센터"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/ready2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_right_black"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            />
+
+    </LinearLayout>
+
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:src="@drawable/myinfo"-->
+        <!--android:scaleType="fitCenter"/>-->
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff8080</color>
+    <color name="colorPrimaryDark">#ff8080</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGray">#cccccc</color>
+    <color name="BackColor">#f8faf8</color>
+    <color name="MyBikeColor">#4472c4</color>
+    <color name="edgeColor">#e3e3e3</color>
+    <color name="colorMenu">#80b7f3</color>
+</resources>
