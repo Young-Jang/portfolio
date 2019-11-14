@@ -3,13 +3,13 @@ Bikeeper
 
 Introduction
 ------------
-This is an app that can share safety incidents in Seoul by district.
+Personal bicycle pickup service app. Developed by HCI process for user
 
 Using android studio(java)
 
 * Road map
 
-![soso1](https://user-images.githubusercontent.com/45625434/68874346-67458000-0744-11ea-91e9-e71ec2399c1f.JPG)
+![prototype](https://user-images.githubusercontent.com/45625434/68875656-8c3af280-0746-11ea-8223-69cc9fae9b95.png)
 
 Getting Started
 ---------------
@@ -19,20 +19,20 @@ Screenshots
 
 * loading
 
-![loading](https://user-images.githubusercontent.com/45625434/68873997-d66ea480-0743-11ea-8f26-0432d8a27200.jpg)
+![loading2](https://user-images.githubusercontent.com/45625434/68876273-8a256380-0747-11ea-9921-db146f448a25.jpg)
 
 * main
 
-![main](https://user-images.githubusercontent.com/45625434/68873998-d66ea480-0743-11ea-9ef5-4bb6a83b61fd.jpg)
+![main2](https://user-images.githubusercontent.com/45625434/68876270-898ccd00-0747-11ea-8e70-831b7943dc2c.jpg)
 
-* direct post
+* lock Bicycle
 
-![floatingbutton](https://user-images.githubusercontent.com/45625434/68873994-d66ea480-0743-11ea-999e-e51faa1e0038.jpg)
+![lock](https://user-images.githubusercontent.com/45625434/68876269-88f43680-0747-11ea-9fdf-94cd365f2cd1.jpg)
 
-* post
+* pick up request
 
-![post](https://user-images.githubusercontent.com/45625434/68873999-d7073b00-0743-11ea-9c8a-dfff9f510b4f.jpg)
+![bikepos](https://user-images.githubusercontent.com/45625434/68876271-898ccd00-0747-11ea-92f6-807e471481aa.jpg)
 
-* board
+* Bicycle status
 
-![board](https://user-images.githubusercontent.com/45625434/68873992-d5d60e00-0743-11ea-9231-c48523a7ff5e.jpg)
+![bikestate](https://user-images.githubusercontent.com/45625434/68876272-898ccd00-0747-11ea-874a-62c319dde4a4.jpg)
