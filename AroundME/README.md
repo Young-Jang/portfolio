@@ -16,6 +16,8 @@ Getting Started
 
 Download <code>apk_file/AroundME.apk</code> on your android mobile phone
 
+And you can open project at android studio
+
 Screenshots
 -----------
 
