@@ -14,6 +14,9 @@ Using android studio(java)
 Getting Started
 ---------------
 
+Download <code>apk_file/Bikeeper.apk</code> on your android mobile phone
+
+
 Screenshots
 -----------
 
