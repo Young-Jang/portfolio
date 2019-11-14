@@ -14,6 +14,8 @@ Using android studio(java)
 Getting Started
 ---------------
 
+Download <code>apk_file/AroundME.apk</code> on your android mobile phone
+
 Screenshots
 -----------
 
