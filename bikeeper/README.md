@@ -16,6 +16,7 @@ Getting Started
 
 Download <code>apk_file/Bikeeper.apk</code> on your android mobile phone
 
+And you can open project using android studio
 
 Screenshots
 -----------
