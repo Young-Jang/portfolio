@@ -11,7 +11,7 @@
     "body-parser": "^1.19.0",
     "caver-js": "0.0.2-z",
     "connect-privkey-to-provider": "^0.0.3",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "keccak256": "^1.0.0",
     "mysql": "^2.17.1",
     "solc": "^0.5.10",
